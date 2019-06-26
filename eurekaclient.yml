@@ -1,10 +1,10 @@
 server:
-  port: 8799
+  port: 8899
 spring:
   application:
     name: eurekaclient
 management:
   endpoints:
-    web:
-      exposure:
+    web: 
+      exposure: 
         include: refresh,health,info
